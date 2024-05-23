@@ -1,0 +1,93 @@
+/*------Global Style-----------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #efefef;
+  /* border: 5px solid red; */
+}
+
+.container {
+  width: 1024px;
+  margin: 0px auto;
+  /* border: 5px solid blue; */
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/*------Header Style-----------*/
+header {
+  background-color: white;
+  border-bottom: 1px solid #f3735f;
+}
+/*------Main Style-----------*/
+section {
+  background-color: white;
+  padding: 60px 30px;
+  /* border: 5px solid red; */
+  border-radius: 20px;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+h1 {
+  size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #393c6c;
+}
+h2 {
+  size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  color: #f3735f;
+}
+h3 {
+  size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #393c6c;
+}
+.info {
+  font-size: smaller;
+  text-align: center;
+}
+.time {
+  /* align-items: center; */
+  margin: 0 auto;
+  background-color: gray;
+  font-size: 30px;
+  color: white;
+  /* width: fit-content; */
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 5px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+}
+.image img {
+  width: 419px;
+  height: 344px;
+  margin: 5px 5px;
+}
+
+/*------Footer Style-----------*/
+footer {
+  background-color: gainsboro;
+}
