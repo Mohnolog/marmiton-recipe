@@ -14,6 +14,7 @@ body {
   width: 1024px;
   margin: 0px auto;
   /* border: 5px solid blue; */
+  background-color: white;
 }
 
 ul {
@@ -25,13 +26,22 @@ ul {
 header {
   background-color: white;
   border-bottom: 1px solid #f3735f;
+  padding: 0 auto;
+}
+.logo {
+  margin: 15px auto;
+  width: 120px;
+  height: 20px;
 }
 /*------Main Style-----------*/
 section {
-  background-color: white;
   padding: 60px 30px;
   /* border: 5px solid red; */
   border-radius: 20px;
+}
+
+.main-container {
+  padding: 30px 15px;
 }
 
 .subtitle {
@@ -44,20 +54,20 @@ p {
   margin-bottom: 20px;
 }
 h1 {
-  size: 50px;
+  font-size: 50px;
   font-weight: bold;
   text-align: center;
   color: #393c6c;
 }
 h2 {
-  size: 30px;
+  font-size: 30px;
   font-weight: bold;
   margin-top: 70px;
   margin-bottom: 20px;
   color: #f3735f;
 }
 h3 {
-  size: 18px;
+  font-size: 18px;
   font-weight: bold;
   line-height: 22px;
   color: #393c6c;
@@ -68,26 +78,30 @@ h3 {
 }
 .time {
   /* align-items: center; */
-  margin: 0 auto;
+  margin: 15px auto;
   background-color: gray;
-  font-size: 30px;
+  /* font-size: 30px; */
   color: white;
   /* width: fit-content; */
   text-align: center;
-  border-radius: 10px;
-  padding: 5px 5px;
+  border-radius: 5px;
+  padding: 5px 60px;
 }
 .image {
-  display: flex;
-  justify-content: center;
+  margin-top: 30px;
 }
 .image img {
-  width: 419px;
-  height: 344px;
-  margin: 5px 5px;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
 }
 
 /*------Footer Style-----------*/
 footer {
   background-color: gainsboro;
+  padding: 10px;
+}
+
+footer p {
+  text-align: center;
 }
